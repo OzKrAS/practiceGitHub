@@ -1,0 +1,82 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 75vh;
+    margin: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 5px 9px 16px -3px rgba(0, 0, 0, 0.27);
+    box-shadow: 5px 9px 16px -3px rgba(0, 0, 0, 0.27);
+    background-image: linear-gradient( to left bottom, #D16BA5, #C777B9, #BA83CA, #AA8FD8, #9A9AE1, #8AA7EC, #79B3F4, #69BFF8, #52CFFE, #41DFFF, #46EEFA, #5FFBF1);
+    border-radius: 20px;
+    width: 25vw;
+    height: 70vh;
+}
+
+label {
+    display: inline-block;
+    width: 80px;
+}
+
+input,
+select {
+    outline: none;
+    background-color: #F5F5F5;
+    border: 0;
+    padding: 7px;
+    margin: 5px;
+    width: 14vw
+}
+
+.camera {
+    background-color: #FCFFFF;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 17%;
+    -webkit-box-shadow: 5px 9px 16px -3px rgba(0, 0, 0, 0.27);
+    box-shadow: 5px 9px 16px -3px rgba(0, 0, 0, 0.27);
+}
+
+button {
+    background-color: #86A8E7;
+    border: 0;
+    border-radius: 15px;
+    width: 5vw;
+    padding: 10px 5px;
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: end;
+}
